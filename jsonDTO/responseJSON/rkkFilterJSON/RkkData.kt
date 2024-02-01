@@ -1,0 +1,35 @@
+package com.example.lexpro_mobile.jsonDTO.responseJSON.rkkFilterJSON
+
+
+data class RkkData (
+	val id : Int,
+	val rkkNumber : String?,
+	val npaName : String?,
+	val registrationDate : String?,
+	val introductionDate : String?,
+	val npaType : NpaType?,
+	val legislativeBasis : String?,
+	val speaker : Speaker?,
+	val coSpeaker : CoSpeaker?,
+	val readyForSession : Boolean?,
+	val responsibleOrganization : ResponsibleOrganization?,
+	val responsibleEmployee : ResponsibleEmployee?,
+	val deadline : String?,
+	val session : Session?,
+	val includedInAgenda : String?,
+	val agendaNumber : String?,
+	val status : Status?,
+	val stage : Stage?,
+	val headSignature : String?,
+	val publicationDate : String?,
+	val timeCreate : String?,
+	val timeUpdate : String?,
+	val isArchived : Boolean?,
+	val isDeleted : Boolean?,
+	val chairmanSign : String?,
+	val governmentHour : Boolean?,
+	val npaNumber : String?,
+	val isReadyToPublish : Boolean?,
+	val connectedOrganizations : String?,
+	val user : User?
+)
